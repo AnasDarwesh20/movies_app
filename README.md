@@ -32,8 +32,8 @@ You can see 3 main folders:
 3- presentation folder: 
 
   It contains all app UI .
-  - components: used in the UI.
-  -  controller: , it is the state management used in this app , bloc state management .
+  - components : used in the UI.
+  -  controller : it is the state management used in this app , bloc state management .
   -   screens : the all app screens . 
 
 there is another folder called core , It contains the shared components in app , like classes , widgets and varibles .  
