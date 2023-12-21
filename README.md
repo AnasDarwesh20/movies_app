@@ -1,16 +1,36 @@
-# movie
+# movies
 
-This is movies app
+## About the app
+This is movies suggestion app show the new movies and movies ratings 
 
-## Getting Started
+It is includes : 
+- New movies
+- Top rated movies
+- Popular movies
 
-This project is a starting point for a Flutter application.
+You can see this 3 categories in the start screen , the recent on the top , then top rated and popular movies . 
 
-A few resources to get you started if this is your first Flutter project:
+## How does it work 
+This application is developed using Flutter framework , clean architecture , bloc as a state management and Dio helper for APIs . 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+You can see 3 main folders : 
+1- Data folder : 
+  It contains 
+  -> the datasource to fetch the data 
+  -> models to organize the data 
+  -> repository to store data and send it to the another side , the domain folder . 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2- Domain folder : 
+  It contains 
+  -> entities : it expressess the entities used in this app , like movie entity that contain all informations about a movie 
+  -> repository : used to send data to usecases 
+  -> usecases : it is used to order the application operations , like get movie data operation .
+
+3- presentation folder : 
+  It contains all app UI 
+  -> components: used in the UI   
+  -> controller: , it is the state management used in this app , bloc state management .   
+  -> screens : the all app screens . 
+
+there is another folder called core , It contains the shared components in app , like classes , widgets and varibles .  
+  
