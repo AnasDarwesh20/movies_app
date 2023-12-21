@@ -28,7 +28,6 @@ class MovieDetailsBloc extends Bloc<MovieDetailsEvent, MovieDetailsState> {
     final result = await getMovieDetailsUseCase(
         MovieDetailsParameters(movieId: event.movieId));
 
-
     result.fold(
             (l) => emit(
               state.copyWith(

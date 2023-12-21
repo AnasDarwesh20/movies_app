@@ -27,3 +27,8 @@ class MyApp extends StatelessWidget {
 
 
 
+// bloc
+// firebase
+// sql
+
+// clean arch.
