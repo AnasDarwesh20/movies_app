@@ -13,7 +13,8 @@ You can see this 3 categories in the start screen , the recent on the top , then
 ## How does it work 
 This application is developed using Flutter framework , clean architecture , bloc as a state management and Dio helper for APIs . 
 
-You can see 3 main folders: 
+You can see 3 main folders:
+
 1- Data folder: 
   It contains :
   - the datasource to fetch the data .
