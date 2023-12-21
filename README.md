@@ -16,6 +16,7 @@ This application is developed using Flutter framework , clean architecture , blo
 You can see 3 main folders:
 
 1- Data folder: 
+
   It contains :
   - the datasource to fetch the data .
   -  models to organize the data .
